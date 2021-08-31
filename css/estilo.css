@@ -1,0 +1,116 @@
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box; 
+}
+
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: 'master_of_breakregular';
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'master_of_breakregular';
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'master_of_breakregular';
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.columnas{
+	column-count: 2;
+	column-gap: 40px;
+	text-align: left;
+	font-family: 'master_of_breakregular';
+}
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	background: 
+	url(../img/ojo.png) right top no-repeat,
+	url(../img/nieve.png) 0 0 no-repeat,
+	url(../img/fondo.png) 0 0 no-repeat;
+	
+
+}
+
+.transparencia, .sombra, .degradado {
+	width: 960px;
+	height: 640px;
+	background-color: #fd79a8;
+}
+
+.sombra{
+	width: 960px;
+	height: 640px;
+	background-color: #fd79a8;
+	box-shadow: 40px 10px 20px #e84393;
+	padding: 100px;
+	font-size: xx-large;
+	text-shadow: 5px 5px 5px #e84393;
+}
+
+.filter1{
+	filter: blur(5px);
+}
+
+.filter2{
+	filter: opacity(0.5);
+}
+
+@font-face {
+	font-family: 'master_of_breakregular';
+	src:url('fuentes/master_of_breakregular.ttf'),
+	    url('fuentes/master_of_breakregular.eot'),
+	    url('fuentes/master_of_breakregular.svg');
+}
+
+#redondo{
+	border: 4px solid #74b9ff;
+    border-radius:20px;
+}
+
+.transparencia{
+	width: 960px;
+	height: 640px;
+	background-color: #fd79a8;
+	padding-left:200px;
+	padding-top: 60px;
+}
+
+.degradado {
+	width: 960px;
+	height: 640px;
+	background-color: #fd79a8;
+	background-image: linear-gradient(top, #6c5f94 0%, #78b3d3 25%, #78b3d3 50%, #bfcdd6 75%, #bfcdd6 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6c5f94), color-stop(0.25, #78b3d3), color-stop(0.5, #78b3d3), color-stop(0.75, #bfcdd6), color-stop(1, #bfcdd6));
+background-image: -moz-linear-gradient(top, #6c5f94 0%, #78b3d3 25%, #78b3d3 50%, #bfcdd6 75%, #bfcdd6 100%);
+background-image: -o-linear-gradient(top, #6c5f94 0%, #78b3d3 25%, #78b3d3 50%, #bfcdd6 75%, #bfcdd6 100%);
+background-image: -ms-linear-gradient(top, #6c5f94 0%, #78b3d3 25%, #78b3d3 50%, #bfcdd6 75%, #bfcdd6 100%);
+}
+
+#dados{
+	opacity: 0.5;
+}
